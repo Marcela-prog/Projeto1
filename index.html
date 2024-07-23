@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>BuuFlix</title>
+</head>
+<body class="bg-dark">
+    <div class="nome text-center">
+        <h1>BuuFlix</h1>
+    </div>
+
+    <nav class="navbar navbar-expand-lg cor1">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">BuuFlix</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Filmes</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  Opções
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Sua Lista</a></li>
+                  <li><a class="dropdown-item" href="#series">Séries</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#doc">Documentários</a></li>
+                  <li><a class="dropdown-item" href="#">Configuração</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-disabled="true">Seu Plano</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            </div>
+        </div>
+        </nav>
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://tm.ibxk.com.br/2020/08/18/18095741331048.jpg?ims=1280x480" class="d-block w-100" alt="Poster filme mulan">
+              </div>
+              <div class="carousel-item">
+                <img src="https://tm.ibxk.com.br/2020/08/18/18095741331048.jpg?ims=1280x480" class="d-block w-100" alt="Poster filme mulan addans desenho">
+              </div>
+              <div class="carousel-item">
+                <img src="https://tm.ibxk.com.br/2020/08/18/18095741331048.jpg?ims=1280x480" class="d-block w-100" alt="Imagem do filme mulan">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    <div class="container text-light">
+        <h2>Filmes</h2>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS8ifAJXbxD8kdG4TOVhDbUH7pg4lT691jfhPQJMqFqnq1GwxCO" class="img-fluid"  alt="Poster filme the watchers" width="160px" height="250px">
+            </div>
+            <div class="col-md-2">
+                <img src="https://i.pinimg.com/236x/e6/e1/ab/e6e1ab59f7ae514a6caa7c4a15191968.jpg" class="img-fluid" alt="Poster filme five nigths at freddy's"width="160px" height="250px">
+            </div>
+            <div class="col-md-2">
+                <img src="https://i.pinimg.com/236x/22/b3/1b/22b31b1bcf3aeb7078bf37e249543183.jpg" class="img-fluid" alt="Poster filme coraline" width="160px" height="250px">
+            </div>
+            <div class="col-md-2">
+                <img src="https://i.pinimg.com/236x/fb/e4/62/fbe4622ef8fbe3e9365dddb98d745462.jpg" class="img-fluid" alt="Poster filme poltergeist" width="160px" height="250px">
+            </div>
+            <div class="col-md-2">
+                <img src="https://www.ucicinemas.com.br/Content/Upload/Filmes/Posters/5985/filme_5985.jpg" class="img-fluid" alt="Poster filme invocação do mal 2 " width="160px" height="250px">
+            </div>
+            <div class="col-md-2">
+                <img src="https://i.pinimg.com/236x/f6/32/9a/f6329a9317484e85d76a3f47fdff327d.jpg" class="img-fluid" alt="Poster filme annabelle " width="160px" height="250px">
+            </div>
+
+        </div>
+        
+    </div>
+    
+    <br><br>
+
+    <div class="container text-light" id="series">
+        <h2>Séries</h2>
+    </div>
+
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-md-2">
+                <img src="https://i.pinimg.com/236x/87/b7/36/87b7360a15926ff8f7a7acc610a76fec.jpg" alt="Poster série " width="160px" height="250px">
+            </div>
+            <div class="col-md-2">
+                <img src="https://i.pinimg.com/236x/82/bd/0b/82bd0b3008e779f0d92088fbac8dd5c2.jpg" alt="Poster série " width="160px" height="250px">
+            </div>
+            <div class="col-md-2">
+                <img src="https://i.pinimg.com/236x/2a/d0/f0/2ad0f022ba0b6a7912465e7176776719.jpg" alt="Poster série " width="160px" height="250px">
+            </div>
+            <div class="col-md-2">
+                <img src="https://i.pinimg.com/236x/64/e7/46/64e746f2fb7cf0ef2aee03d9f9c04111.jpg" class="img-fluid" alt="Poster série " width="160px" height="250px">
+            </div>
+            <div class="col-md-2">
+                <img src="https://i.pinimg.com/236x/cb/53/f0/cb53f043e7327129191264397fcbf787.jpg" alt="Poster série " width="160px" height="250px">
+            </div>
+            <div class="col-md-2">
+                <img src="https://i.pinimg.com/236x/34/0c/04/340c04ea0b1129d294eda71c3ac03e47.jpg" alt="Poster série " width="160px" height="250px">
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <div class="container text-light" id="doc">
+        <h2>Documentários</h2>
+    </div>
+
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-md-2">
+                <img src="https://i.pinimg.com/236x/65/03/88/65038862a5370afb0820184d7fbc06ab.jpg" class="img-fluid" alt="Poster documentário haunted" width="250px" height="200px">
+            </div>
+            <div class="col-md-2">
+                <img src="https://br.web.img3.acsta.net/pictures/22/10/17/17/05/5635342.jpg" class="img-fluid" alt="Poster documentário 28 dias assombrado" width="250px" height="200px">
+            </div>
+            <div class="col-md-2">
+                <img src="https://i.pinimg.com/236x/ef/08/80/ef08802b03b8e34eae41db2f6edbd78e.jpg" class="img-fluid" alt="Poster documentário cyber hell" width="250px" height="200px">
+            </div>
+            <div class="col-md-2">
+                <img src="https://media.fstatic.com/57N4Ge8MhYiUjkRssFdYrB5bqvE=/322x478/smart/filters:format(webp)/media/movies/covers/2022/10/images_9xiuq61.jpeg" class="img-fluid" alt="Poster documentário unsolved mysteries" width="250px" height="200px">
+            </div>
+            <div class="col-md-2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqcflunWZ96swj-994uZ8PUUAR6U5ZNo7_Q&s" class="img-fluid" alt="Poster documentário as almas perdidas do voo 401 " width="250px" height="200px">
+            </div>
+            <div class="col-md-2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2eClbq0rfDCqU6ULWm7gy31_gysmXPYohYA&s" class="img-fluid" alt="Poster documentário amityville" width="250px" height="200px">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>
+                <small>&copy;BuuFlix - Todos os direitos reservados - 2024</small>
+            </p>
+        </div>
+
+</body>
+</html>
